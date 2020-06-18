@@ -1,0 +1,18 @@
+
+.box{
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	background: #4CD964;
+	padding: 20 20px;
+	text-align: center;
+}
+.box-active{
+	background: #DD524D;
+}
+.text1{
+	color: #007AFF;
+	font-size: 80rpx;
+}
+

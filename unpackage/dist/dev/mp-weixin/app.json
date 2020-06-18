@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/detial/detial",
+    "pages/login/login",
+    "pages/HM-PersonalCenter/HM-PersonalCenter",
+    "pages/goods/goods",
+    "pages/express/express",
+    "pages/pics/pics",
+    "pages/teacher/teacher"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "书林帮",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "backgroundColor": "#FFFF00",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#DD524D",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/12.png",
+        "selectedIconPath": "static/11.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/15.png",
+        "selectedIconPath": "static/16.png"
+      },
+      {
+        "text": "世界",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/10.png",
+        "selectedIconPath": "static/9.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/detial/detial",
+        "iconPath": "static/2.png",
+        "selectedIconPath": "static/1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/HM-PersonalCenter/HM-PersonalCenter",
+        "iconPath": "static/3.png",
+        "selectedIconPath": "static/4.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap23.json"
+}
