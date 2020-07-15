@@ -1,7 +1,5 @@
 {
   "navigationBarTitleText": "书林帮",
   "enablePullDownRefresh": true,
-  "usingComponents": {
-    "goods-list": "/components/goods-list/goods-list"
-  }
+  "usingComponents": {}
 }

@@ -42,7 +42,7 @@
 					
 					{
 						icon:'iconfont icon-tupian',
-						title:'社区图片',
+						title:'校园指南',
 						path:'/pages/pics/pics'
 					},
 					
@@ -57,6 +57,18 @@
 		onLoad(){
 			this.getSwipers()
 			this.getHotGoods()
+			uni.request({
+				url: this.apiServer+'index&m=index',
+				method: 'GET',
+				data: {},
+				success: res => {
+					console.log(JSON.stringify(res));
+				},
+				fail: (e) => {
+					console.log(JSON.stringify(e));
+				},
+				complete: () => {}
+			});
 		},
 		components:{"goods-list":goodsList},
 		methods:{

@@ -13,6 +13,7 @@
 </script>
 
 <style>
+	@import 'graceUI/graceUI.css';
 	@font-face {font-family: "iconfont";
 	  src: url('~@/static/font/iconfont.eot?t=1576844226174'); /* IE9 */
 	  src: url('~@/static/font/iconfont.eot?t=1576844226174#iefix') format('embedded-opentype'), /* IE6-IE8 */

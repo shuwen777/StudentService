@@ -9,7 +9,11 @@
     "pages/goods/goods",
     "pages/express/express",
     "pages/pics/pics",
-    "pages/teacher/teacher"
+    "pages/teacher/teacher",
+    "pages/contact_uploading/contact_uploading",
+    "pages/test1/test1",
+    "pages/my/my",
+    "pages/editArt/editArt"
   ],
   "subPackages": [],
   "window": {
@@ -30,12 +34,6 @@
         "selectedIconPath": "static/11.png"
       },
       {
-        "text": "消息",
-        "pagePath": "pages/message/message",
-        "iconPath": "static/15.png",
-        "selectedIconPath": "static/16.png"
-      },
-      {
         "text": "世界",
         "pagePath": "pages/contact/contact",
         "iconPath": "static/10.png",
@@ -49,12 +47,16 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/HM-PersonalCenter/HM-PersonalCenter",
+        "pagePath": "pages/my/my",
         "iconPath": "static/3.png",
         "selectedIconPath": "static/4.png"
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap23.json"
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
+  "usingComponents": {}
 }

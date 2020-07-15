@@ -4,11 +4,14 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false
+		"urlCheck": false,
+		"postcss": false,
+		"minified": false,
+		"es6": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.2",
-	"appid": "touristappid",
+	"libVersion": "",
+	"appid": "wx8e56ba7a68b91a4b",
 	"projectname": "test1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -32,7 +35,7 @@
 					"name": "详情页",
 					"query": "id=80",
 					"id": 0,
-					"pathName": "pages/localhost/localhost"
+					"pathName": "pages/index/index"
 				}
 			]
 		}

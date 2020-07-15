@@ -1,6 +1,4 @@
 {
   "navigationBarTitleText": "世界",
-  "usingComponents": {
-    "uni-fab": "/components/uni-fab/uni-fab"
-  }
+  "usingComponents": {}
 }
